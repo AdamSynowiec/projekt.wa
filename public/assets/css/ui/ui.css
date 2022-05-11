@@ -1,0 +1,155 @@
+/*Import*/
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+/*root variable*/
+:root {
+    --main-pink: #bc3595;
+    --main-deep-dark-blue: #232649;
+    --main-blue: #008adB;
+    --main-dark-blue: #003083;
+    --main-dark-green: #0a473d;
+    --main-light-orange: #ff8a65;
+    --main-light-blue: #2196f3;
+    --main-lemon: #cef7dc;
+    --main-light-gray: #d6f0ff;
+    --main-white: #f2f2f2;
+    --main-black: #000000;
+}
+
+html, body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* container */
+.container-full,
+.container{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* headings */
+
+h1 {
+    font-size: 75px;
+    font-weight: 700;
+    color: var(--main-white);
+}
+
+h2 {
+    font-size: 64px;
+}
+
+h3 {
+    font-size: 48px;
+}
+
+span.text-title {
+    font-size: 32px;
+}
+
+span.text-standard {
+    font-size: 24px;
+    color: var(--main-deep-dark-blue);
+}
+
+span.text-small {
+    font-size: 18px;
+}
+
+/* buttons */
+
+.btn {
+    border-radius: 8px;
+    color: var(--main-white);
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.btn-standard {
+    padding: 17px 50px;
+    font-size: 20px;
+}
+
+.btn-bigger {
+    padding: 22px 50px;
+    font-size: 25px;
+    background-color: var(--main-black);
+}
+
+.btn-secondary {
+    padding: 22px 50px;
+    font-size: 25px;
+    background-color: transparent;
+    color: var(--main-deep-dark-blue);
+}
+
+/*bg colors*/
+.bg-pink {
+    background-color: var(--main-pink);
+}
+
+/*BreakPoints*/
+@media (min-width: 0) {
+
+    .container-full {
+        max-width: 100%;
+    }
+
+    .container {
+        max-width: 100%;
+    }
+
+
+}
+
+@media (min-width: 568px) {
+
+    .container-full {
+        max-width: 100%;
+    }
+
+    .container {
+        max-width: 100%;
+    }
+
+}
+
+
+@media (min-width: 768px) {
+
+    .container-full {
+        max-width: 738px;
+    }
+
+    .container {
+        max-width: 664px;
+    }
+
+}
+
+@media (min-width: 992px) {
+    .container-full {
+        max-width: 962px;
+    }
+
+    .container {
+        max-width: 858px;
+    }
+
+}
+
+@media (min-width: 1366px) {
+
+    .container-full {
+        max-width: 1336px;
+    }
+
+    .container {
+        max-width: 1140px;
+    }
+
+}

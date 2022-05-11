@@ -1,0 +1,105 @@
+.header-top-strap {
+    background: rgb(132,73,154);
+    background: linear-gradient(110deg, #a677b3 0%, rgba(199,68,148,1) 50%, rgba(244,155,146,1) 100%);
+    min-height: 110px;
+}
+
+.header-top-strap > .container {
+    min-height: 110px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation {
+    width: 100%;
+    max-width: 481px;
+}
+
+.navigation > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation > ul > li {
+}
+
+.navigation > ul > li:last-child {
+    margin-right: 0;
+}
+
+.navigation > ul > li > a {
+    text-transform: uppercase;
+    color: var(--main-deep-dark-blue);
+    font-size: 17px;
+    font-weight: 600;
+    position: relative;
+    display: block;
+    overflow: hidden;
+    padding: 5px 0;
+}
+
+.navigation > ul > li > a::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: var(--main-deep-dark-blue);
+    bottom: 0;
+    left: -100%;
+    transition: 0.3s ease;
+}
+
+.navigation > ul > li > a:hover::before {
+    left: 0;
+}
+
+.header-sub-strap {
+    background: rgb(132,73,154);
+    background: linear-gradient(110deg, #9e6dad 0%, rgba(199,68,148,1) 50%, rgba(244,155,146,1) 100%);
+    min-height: 50px;
+    padding-right: 130px;
+}
+
+.header-sub-strap > .container {
+    min-height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.hero-content {
+    background: rgb(132,73,154);
+    background: linear-gradient(103deg, rgba(132,73,154,1) 0%, rgba(199,68,148,1) 50%, rgba(244,155,146,1) 100%);
+
+}
+
+.hero-content > .container {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    position: relative;
+}
+
+.hero-content > .container::after {
+    content: '';
+    width: 434px;
+    height: 100%;
+    position: absolute;
+    right: -80px;
+    top: 0;
+    background-image: url("../../images/woman.png");
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}
+
+
+.hero-text {
+    max-width: 815px;
+}
+
+.hero-callToAction {
+    margin-top: 70px;
+}
