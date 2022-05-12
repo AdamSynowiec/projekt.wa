@@ -51,17 +51,42 @@ h4 {
     color: var(--main-deep-dark-blue);
 }
 
-span.text-title {
+.text-title {
     font-size: 32px;
 }
 
-span.text-standard {
+.text-standard {
     font-size: 24px;
+    line-height: 30px;
     color: var(--main-deep-dark-blue);
 }
 
-span.text-small {
+.text-small {
     font-size: 18px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/*list items ul*/
+ul.list li {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 50px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+ul.list li::before {
+    content: '';
+    width: 23px;
+    height: 23px;
+    background-image: url("../../images/listItem.png");
+    background-size: cover;
+    position: absolute;
+    left: -40px
 }
 
 /* buttons */
@@ -110,6 +135,10 @@ span.text-small {
 .bg-light-orange {
     background-color: var(--main-light-orange) !important;
     color: var(--main-black);
+}
+
+.bg-blue {
+    background: var(--main-blue) !important;
 }
 
 /*grid-items grid-row-3*/
