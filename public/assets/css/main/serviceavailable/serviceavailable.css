@@ -1,18 +1,18 @@
-.service-anvailable {
+.service-available {
     margin-top: 150px;
 }
 
-.service-anvailable .container {
+.service-available .container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.service-anvailable .container > div:nth-of-type(1) {
+.service-available .container > div:nth-of-type(1) {
     max-width: calc(100% - 606px);
 }
 
-.service-anvailable .container > div:nth-of-type(2) {
+.service-available .container > div:nth-of-type(2) {
     max-width: 606px;
     padding-top: 50px;
 }
@@ -32,13 +32,13 @@
 /*BreakPoints*/
 @media (min-width: 0) {
 
-    .service-anvailable .container {
+    .service-available .container {
         flex-direction: column-reverse;
         align-items: center;
     }
 
-    .service-anvailable .container > div:nth-of-type(1),
-    .service-anvailable .container > div:nth-of-type(1) img{
+    .service-available .container > div:nth-of-type(1),
+    .service-available .container > div:nth-of-type(1) img{
         max-width: 100%;
     }
 
@@ -65,12 +65,12 @@
 }
 
 @media (min-width: 1366px) {
-    .service-anvailable .container {
+    .service-available .container {
         flex-direction: row;
         align-items: center;
     }
 
-    .service-anvailable .container > div:nth-of-type(1){
+    .service-available .container > div:nth-of-type(1){
         max-width: calc(100% - 606px);
     }
 
