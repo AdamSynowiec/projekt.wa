@@ -1,5 +1,7 @@
 .glob-strap {
     margin: 42px 0;
     height: 120px;
-    background: #d6f0ff;
+    background-image: url("../../../images/bg.png");
+    background-size: contain;
+    background-repeat: repeat;
 }

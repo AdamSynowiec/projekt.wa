@@ -31,8 +31,18 @@
 
 .sop-content {
     background-color: var(--main-light-gray);
-    min-height: 625px;
+    min-height: 500px;
     position: relative;
+}
+
+.sop-content::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background-color: var(--main-light-gray);
+    z-index: -1;
+    transform: skew(0deg, 2deg);
 }
 
 .sop-content ul.row:nth-of-type(even) {
@@ -98,4 +108,10 @@
 
 .glob-list li:nth-of-type(7n+1) > span.glob{
     background-color: var(--main-dark-blue);
+}
+
+.sop-btnAction {
+    position: absolute;
+    left: calc(50% - 119px);
+    bottom: -90px;
 }
