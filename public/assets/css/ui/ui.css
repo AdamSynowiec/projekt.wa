@@ -37,10 +37,18 @@ h1 {
 
 h2 {
     font-size: 64px;
+    font-weight: 800;
 }
 
 h3 {
     font-size: 48px;
+    font-weight: 800;
+}
+
+h4 {
+    font-size: 24px;
+    font-weight: 800;
+    color: var(--main-deep-dark-blue);
 }
 
 span.text-title {
