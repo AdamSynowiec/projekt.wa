@@ -1,0 +1,34 @@
+.cloud-phone-system {
+    min-height: 350px;
+    margin-top: 64px;
+    margin-bottom: 45px;
+}
+
+.cloud-phone-system .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.cps-content {
+    display: block;
+    width: 100%;
+    max-width: 635px;
+}
+
+.cps-content span.text-standard {
+    display: block;
+    margin: 40px 0;
+}
+
+.cps-image {
+    width: 546px;
+    position: absolute;
+    right: 80px;
+}
+
+.cps-image img {
+    height: 100%;
+}

@@ -127,6 +127,10 @@ ul.list li::before {
     color: var(--main-blue) !important;
 }
 
+.text-pink {
+    color: var(--main-pink) !important;
+}
+
 /*bg colors*/
 .bg-pink {
     background-color: var(--main-pink) !important;
@@ -140,6 +144,7 @@ ul.list li::before {
 .bg-blue {
     background: var(--main-blue) !important;
 }
+
 
 /*grid-items grid-row-3*/
 .grid-items {
