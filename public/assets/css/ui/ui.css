@@ -72,6 +72,7 @@ span.text-small {
 .btn-standard {
     padding: 17px 50px;
     font-size: 20px;
+    font-weight: 600;
 }
 
 .btn-bigger {
@@ -89,7 +90,12 @@ span.text-small {
 
 /*bg colors*/
 .bg-pink {
-    background-color: var(--main-pink);
+    background-color: var(--main-pink) !important;
+}
+
+.bg-light-orange {
+    background-color: var(--main-light-orange) !important;
+    color: var(--main-black);
 }
 
 /*BreakPoints*/
@@ -101,6 +107,8 @@ span.text-small {
 
     .container {
         max-width: 100%;
+        padding-right: 5%;
+        padding-left: 5%;
     }
 
 

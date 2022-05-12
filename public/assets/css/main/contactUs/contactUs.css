@@ -1,0 +1,19 @@
+.contact-us {
+    background-color: var(--main-dark-green);
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.contact-us > .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.contact-us > .container > h2,
+.contact-us > .container > span {
+    color: var(--main-white);
+    margin-bottom: 30px;
+}
