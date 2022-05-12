@@ -50,6 +50,10 @@ footer > .footer .footer-copyright > span {
         align-items: center;
     }
 
+    footer > .footer .footer-copyright {
+        left: 0;
+    }
+
     .footer-navigation ul {
         margin: 50px 0;
     }
@@ -92,6 +96,7 @@ footer > .footer .footer-copyright > span {
 
     .footer-copyright {
         flex-direction: row;
+        left: -30px;
     }
 
     .footer-copyright span {

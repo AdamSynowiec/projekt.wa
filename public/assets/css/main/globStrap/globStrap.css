@@ -5,3 +5,33 @@
     background-size: contain;
     background-repeat: repeat;
 }
+
+/*BreakPoints*/
+@media (min-width: 0) {
+
+    .glob-strap {
+        display: none;
+    }
+
+}
+
+@media (min-width: 568px) {
+
+
+
+}
+
+@media (min-width: 768px) {
+    .glob-strap {
+        display: block;
+    }
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1366px) {
+
+}

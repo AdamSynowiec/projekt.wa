@@ -24,11 +24,62 @@
 }
 
 .cps-image {
-    width: 546px;
-    position: absolute;
-    right: 80px;
+    z-index: -1;
 }
 
 .cps-image img {
     height: 100%;
+}
+
+/*BreakPoints*/
+@media (min-width: 0) {
+
+    .cloud-phone-system .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .cps-image {
+        position: static;
+        width: 100%;
+    }
+
+    .cps-image img {
+        width: 100%;
+    }
+
+}
+
+@media (min-width: 568px) {
+
+
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+
+    .cloud-phone-system .container {
+        flex-direction: row;
+        align-items: center;
+        text-align: left;
+        justify-content: space-between;
+    }
+
+    .cps-image {
+        width: 546px;
+        right: 80px;
+    }
+
+    .cps-image img {
+        width: auto;
+    }
+
+}
+
+@media (min-width: 1366px) {
+
 }

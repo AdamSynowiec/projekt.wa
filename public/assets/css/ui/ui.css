@@ -31,13 +31,11 @@ html, body {
 /* headings */
 
 h1 {
-    font-size: 75px;
     font-weight: 700;
     color: var(--main-white);
 }
 
 h2 {
-    font-size: 64px;
     font-weight: 800;
 }
 
@@ -57,8 +55,6 @@ h4 {
 }
 
 .text-standard {
-    font-size: 24px;
-    line-height: 30px;
     color: var(--main-deep-dark-blue);
 }
 
@@ -122,6 +118,11 @@ ul.list li::before {
     color: var(--main-deep-dark-blue);
 }
 
+.btn-square {
+    width: 50px;
+    height: 50px;
+}
+
 /*Text colors*/
 
 .text-white {
@@ -182,8 +183,22 @@ ul.list li::before {
         padding-left: 5%;
     }
 
+    h1 {font-size: 29px}
+    h2 {font-size: 22px}
+    h3 {}
+    h4 {}
+
+    .text-standard {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
     .grid-row-3 {
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .v-mobile {
+        display: block;
     }
 
 
@@ -198,6 +213,7 @@ ul.list li::before {
     .container {
         max-width: 100%;
     }
+
 
     .grid-row-3 {
         grid-template-columns: repeat(2, 1fr);
@@ -216,9 +232,22 @@ ul.list li::before {
         max-width: 664px;
     }
 
+    h1 {font-size: 55px}
+    h2 {font-size: 44px;}
+    h3 {}
+    h4 {}
+
+
+
+    .text-standard {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
     .grid-row-3 {
         grid-template-columns: repeat(3, 1fr);
     }
+
 
 }
 
@@ -231,6 +260,11 @@ ul.list li::before {
         max-width: 858px;
     }
 
+    h1 {font-size: 75px}
+    h2 {font-size: 64px;}
+    h3 {}
+    h4 {}
+
 }
 
 @media (min-width: 1366px) {
@@ -241,6 +275,10 @@ ul.list li::before {
 
     .container {
         max-width: 1140px;
+    }
+
+    .v-mobile {
+        display: none;
     }
 
 }

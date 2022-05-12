@@ -9,6 +9,9 @@
     text-align: center;
     position: relative;
     min-height: 375px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .sop-banner::before {
@@ -114,4 +117,47 @@
     position: absolute;
     left: calc(50% - 119px);
     bottom: -90px;
+}
+
+/*BreakPoints*/
+@media (min-width: 0) {
+
+    .sop-banner img {
+        height: 205px;
+    }
+
+    .sop-banner {
+        justify-content: flex-end;
+        height: auto;
+        min-height: auto;
+    }
+
+}
+
+@media (min-width: 568px) {
+
+
+
+}
+
+@media (min-width: 768px) {
+
+    .sop-banner img {
+        height: auto;
+    }
+
+    .sop-banner {
+        min-height: 375px;
+    }
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1366px) {
+    .sop-banner {
+        justify-content: center;
+    }
 }

@@ -12,9 +12,9 @@
     align-items: center;
 }
 
-.navigation {
+.header-top-strap .logo img {
     width: 100%;
-    max-width: 481px;
+    max-width: 255px;
 }
 
 .navigation > ul {
@@ -102,4 +102,115 @@
 
 .hero-callToAction {
     margin-top: 70px;
+}
+
+/*BreakPoints*/
+@media (min-width: 0) {
+
+    .header-top-strap {
+        justify-content: space-between;
+    }
+
+    .navigation {
+        border: 1px solid #eee;
+        box-sizing: border-box;
+        padding: 25% 0;
+        position: absolute;
+        background: linear-gradient(110deg, #9e6dad 0%, rgba(199,68,148,1) 50%, rgba(244,155,146,1) 100%);
+        left: 0;
+        right: 0;
+        width: 100%;
+        max-width: 100%;
+        top: 110px;
+        z-index: 99;
+        display: none;
+    }
+
+    .navigation ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navigation ul > li > a {
+        display: inline-block;
+        padding: 25px 5%;
+    }
+
+    .hero-content > .container::after {
+        z-index: -99;
+    }
+
+    .hero-content .hero-text {
+        text-align: center;
+    }
+
+    .header-btn-action {
+        display: none;
+    }
+
+    .header-sub-strap {
+        padding: 0;
+    }
+
+    .header-sub-strap > .container {
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+@media (min-width: 568px) {
+
+
+
+}
+
+@media (min-width: 768px) {
+
+    .header-sub-strap {
+        padding-right: 130px;
+    }
+
+    .header-sub-strap > .container {
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+}
+
+@media (min-width: 992px) {
+
+
+
+}
+
+@media (min-width: 1366px) {
+
+    .hero-content > .container::after {
+        z-index: 1;
+    }
+
+    .hero-content .hero-text {
+        text-align: left;
+    }
+
+    .navigation {
+        position: static;
+        background: transparent;
+        display: flex;
+        border: 0;
+        width: 100%;
+        max-width: 481px;
+        padding: 0;
+
+    }
+
+    .navigation ul {
+        flex-direction: row;
+    }
+
+    .header-btn-action {
+        display: flex;
+    }
+
 }

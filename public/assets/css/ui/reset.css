@@ -20,6 +20,7 @@ button{
     vertical-align: baseline;
     text-decoration: none;
     list-style-type: none;
+    background: transparent;
 }
 /* remember to define focus styles! */
 :focus {
