@@ -71,7 +71,7 @@
     background-color: var(--main-light-gray);
     position: absolute;
     top: -172px;
-    z-index: -2;
+    z-index: 0;
 }
 
 .glob-list {
