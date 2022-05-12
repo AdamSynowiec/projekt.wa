@@ -96,6 +96,12 @@ span.text-small {
     color: var(--main-deep-dark-blue);
 }
 
+/*Text colors*/
+
+.text-blue {
+    color: var(--main-blue) !important;
+}
+
 /*bg colors*/
 .bg-pink {
     background-color: var(--main-pink) !important;
@@ -104,6 +110,22 @@ span.text-small {
 .bg-light-orange {
     background-color: var(--main-light-orange) !important;
     color: var(--main-black);
+}
+
+/*grid-items grid-row-3*/
+.grid-items {
+    display: grid;
+    gap: 30px;
+}
+
+.item {
+    width: 160px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.grid-row-3 {
+    grid-template-columns: repeat(3, 1fr);
 }
 
 /*BreakPoints*/

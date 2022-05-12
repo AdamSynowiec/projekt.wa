@@ -1,0 +1,57 @@
+.how-we-serve {
+}
+
+.how-we-serve .container {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding-bottom: 100px;
+}
+
+.how-we-serve .container > div {
+    flex-basis: 50%;
+}
+
+.how-we-serve .container > div .grid-items > .item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 75px;
+}
+
+.how-we-serve .container > div .grid-items > .item img {
+    margin-bottom: 20px;
+    width: 80px;
+    height: 80px;
+    transform: rotateY(180deg);
+}
+
+.how-we-serve-phone {
+    position: relative;
+}
+
+.how-we-serve-phone .phone {
+    position: absolute;
+    bottom: -100px;
+    width: 540px;
+    height: 932px;
+}
+
+.how-we-serve-phone .phone {
+    background-image: url("../../../images/Phone.png");
+    background-size: cover;
+}
+
+.phone-content {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 80px;
+    border-top-left-radius: 80px;
+    padding-top: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 71px;
+}
