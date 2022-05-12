@@ -30,7 +30,6 @@ footer > .footer .footer-navigation > ul > li > a {
 
 footer > .footer .footer-copyright {
     position: relative;
-    left: -30px;
     width: 100%;
     max-width: 635px;
     display: flex;
@@ -96,7 +95,8 @@ footer > .footer .footer-copyright > span {
 
     .footer-copyright {
         flex-direction: row;
-        left: -30px;
+        position: relative;
+        left: -30px !important;
     }
 
     .footer-copyright span {
