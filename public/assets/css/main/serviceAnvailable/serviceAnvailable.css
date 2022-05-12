@@ -1,0 +1,29 @@
+.service-anvailable {
+
+}
+
+.service-anvailable .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.service-anvailable .container > div:nth-of-type(1) {
+    max-width: calc(100% - 606px);
+}
+
+.service-anvailable .container > div:nth-of-type(2) {
+    max-width: 606px;
+}
+
+.service-content {
+    text-align: right;
+}
+
+.service-content h2 {
+    margin-bottom: 50px;
+}
+
+.service-content p {
+    margin-bottom: 40px;
+}
