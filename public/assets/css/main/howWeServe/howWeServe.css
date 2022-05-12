@@ -143,6 +143,15 @@
         text-align: left;
     }
 
+    .mobile-serve-link {
+        padding: 20px;
+        text-align: right;
+    }
+
+    .mobile-serve-link > a {
+        color: var(--main-blue);
+    }
+
 }
 
 @media (min-width: 568px) {
