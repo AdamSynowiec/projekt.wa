@@ -59,3 +59,38 @@
 .card > .card-footer {
     margin-top: 32px;
 }
+
+/*BreakPoints*/
+@media (min-width: 0) {
+
+    .card-groups {
+        flex-direction: column;
+    }
+
+    .card {
+        max-width: 100%;
+    }
+
+}
+
+@media (min-width: 568px) {
+
+
+
+}
+
+@media (min-width: 768px) {
+
+
+}
+
+@media (min-width: 992px) {
+    .card-groups {
+        flex-direction: row;
+    }
+
+}
+
+@media (min-width: 1366px) {
+
+}

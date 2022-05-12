@@ -88,7 +88,7 @@
     width: 434px;
     height: 100%;
     position: absolute;
-    right: -80px;
+    right: 0;
     top: 0;
     background-image: url("../../images/woman.png");
     background-position: right bottom;
