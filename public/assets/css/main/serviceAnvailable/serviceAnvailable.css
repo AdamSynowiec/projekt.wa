@@ -28,3 +28,53 @@
 .service-content p {
     margin-bottom: 40px;
 }
+
+/*BreakPoints*/
+@media (min-width: 0) {
+
+    .service-anvailable .container {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .service-anvailable .container > div:nth-of-type(1),
+    .service-anvailable .container > div:nth-of-type(1) img{
+        max-width: 100%;
+    }
+
+    .service-content {
+        text-align: center;
+    }
+
+}
+
+@media (min-width: 568px) {
+
+
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+
+
+
+}
+
+@media (min-width: 1366px) {
+    .service-anvailable .container {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .service-anvailable .container > div:nth-of-type(1){
+        max-width: calc(100% - 606px);
+    }
+
+    .service-content {
+        text-align: center;
+    }
+}
