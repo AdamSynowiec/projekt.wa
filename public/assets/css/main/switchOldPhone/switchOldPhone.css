@@ -15,6 +15,13 @@
     justify-content: center;
 }
 
+.switch-callToAction {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 25px;
+}
+
 .sop-banner::before {
     content: '';
     position: absolute;
@@ -40,7 +47,6 @@
 
 .sop-content {
     background-color: var(--main-light-gray);
-    min-height: 500px;
     position: relative;
 }
 
@@ -128,6 +134,10 @@
 /*BreakPoints*/
 @media (min-width: 0) {
 
+    .sop-content {
+        min-height: 530px;
+    }
+
     .sop-banner img {
         height: 205px;
     }
@@ -136,6 +146,26 @@
         justify-content: flex-end;
         height: auto;
         min-height: auto;
+    }
+
+    .switch-callToAction {
+        display: none;
+    }
+
+    .sop-mobile-action {
+        width: calc(100% - 20%);
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 25px;
+        display: block;
+    }
+
+    .sop-btnAction .btn-standard {
+        display: none;
+    }
+
+    .sop-btnAction .btn-secondary {
+        display: block;
     }
 
 }
@@ -148,12 +178,32 @@
 
 @media (min-width: 768px) {
 
+    .sop-content {
+        min-height: 500px;
+    }
+
     .sop-banner img {
         height: auto;
     }
 
     .sop-banner {
         min-height: 375px;
+    }
+
+    .sop-mobile-action {
+        display: none;
+    }
+
+    .switch-callToAction {
+        display: flex;
+    }
+
+    .sop-btnAction .btn-standard {
+        display: block;
+    }
+
+    .sop-btnAction .btn-secondary {
+        display: none;
     }
 
 }

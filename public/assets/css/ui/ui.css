@@ -125,6 +125,10 @@ ul.list li::before {
 
 /*Text colors*/
 
+.text-black {
+    color: var(--main-black) !important;
+}
+
 .text-white {
     color: var(--main-white) !important;
 }
@@ -138,6 +142,11 @@ ul.list li::before {
 }
 
 /*bg colors*/
+
+.bg-white {
+    background-color: #fff !important;
+}
+
 .bg-pink {
     background-color: var(--main-pink) !important;
 }
