@@ -79,3 +79,94 @@
 .phone-content button {
     margin-top: 50px;
 }
+
+
+/*BreakPoints*/
+@media (min-width: 0) {
+
+    .how-we-serve {
+        display: none;
+    }
+
+    .how-we-serve-mobile {
+        display: block;
+    }
+
+    .how-we-serve-mobile {
+        margin: 100px 0;
+        text-align: center;
+    }
+
+    .how-we-serve-mobile h2 {
+        margin-bottom: 35px;
+    }
+
+    .serve-items-mobile {
+        margin-top: 50px;
+    }
+
+    .serve-item {
+        margin-bottom: 35px;
+        background-color: #fff;
+        border-radius: 8px;
+    }
+
+    .serve-item .serve-item-header {
+        position: relative;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 10px;
+        border-radius: 8px;
+    }
+
+    .serve-item .serve-item-header::after {
+        content: url("../../../images/arr_down.png");
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        right: 15px;
+    }
+
+    .serve-item .serve-item-header > img {
+        width: 30px;
+        height: 30px;
+        transform: rotateY(180deg);
+        margin-right: 15px;
+    }
+
+    .serve-item-hidden-value {
+        padding: 10px;
+        text-align: left;
+    }
+
+}
+
+@media (min-width: 568px) {
+
+
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1366px) {
+
+    .how-we-serve {
+        display: block;
+    }
+
+    .how-we-serve-mobile {
+        display: none;
+    }
+
+}
